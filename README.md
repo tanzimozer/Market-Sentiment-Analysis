@@ -14,23 +14,41 @@ Workflow automation for dynamic stock analysis.
 #Folder Structure
 
 Market-Sentiment-Analysis/
-├── README.md                     # Main project overview
-├── scripts/                      # Python scripts for automation
-│   ├── reddit_api_config.py      # API configuration for Reddit
-│   ├── reddit_data_collection.py # Script for data collection
+├── .gitignore                     # Ignore unnecessary files
+├── LICENSE                        # Licensing details
+├── README.md                      # Main project overview
+├── scripts/                       # Python scripts for automation
+│   ├── Readme.md                  # Detailed instructions for scripts
+│   ├── analyze_ticker_sentiment.py # Analyze sentiment by stock ticker
+│   ├── extract_stock_tickers.py   # Extract stock tickers from Reddit posts
+│   ├── fetch_stock_prices.py      # Fetch historical stock prices
+│   ├── reddit_api_config.py       # API configuration for Reddit
+│   ├── reddit_data_collection.py  # Collect Reddit posts
 │   ├── reddit_sentiment_analysis.py # Sentiment analysis
-│   ├── extract_stock_tickers.py  # Extract stock tickers from Reddit posts
-│   ├── fetch_stock_prices.py     # Fetch historical stock prices
-│   ├── correlation_analysis.py   # Correlation analysis between sentiment and stock prices
-│   ├── visualize_ticker_sentiment.py # Generate visualizations
-├── visualization results/        # Saved visualizations (e.g., PNG images)
+│   ├── reddit_sentiment_visualization.py # Visualize sentiment trends
+│   ├── reddit_test_connection.py  # Test Reddit API connection
+│   ├── visualize_ticker_sentiment.py # Generate sentiment and correlation visualizations
+├── stock_data/                    # Fetched stock price data (CSV files)
+│   ├── $ASTS_prices.csv
+│   ├── $GSAT_prices.csv
+│   ├── ...
+├── visualization results/         # Saved visualizations (e.g., PNG images)
+│   ├── average_sentiment_over_time_I.png
+│   ├── bottom_posts_sentiment.png
+│   ├── bottom_tickers_sentiment.png
+│   ├── boxplot_sentiment.png
+│   ├── most_frequently_mentioned_tickers.png
+│   ├── post_length_vs_sentiment.png
+│   ├── sentiment_by_comments_buckets.png
+│   ├── sentiment_by_score_buckets.png
 │   ├── sentiment_distribution.png
-│   ├── top_posts_sentiment.png
+│   ├── sentiment_distribution_by_ticker.png
+│   ├── sentiment_over_time.png
 │   ├── sentiment_vs_comments.png
-│   ├── correlation_analysis.png
-│   ├── ...                       # Additional plots
-├── stock_data/                   # Fetched stock price data
-└── venv/                         # Virtual environment (excluded via .gitignore)
+│   ├── sentiment_vs_score.png
+│   ├── top_posts_sentiment.png
+│   ├── top_tickers_sentiment.png
+└── correlation_analysis.py        # Main script for correlation analysis
 
 
 # Project Goals
