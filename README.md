@@ -1,4 +1,4 @@
-# Market-Sentiment-Analysis
+# Market_Sentiment_Analysis
 Stock Sentiment Analysis Using Reddit Data
 
 # Summary
