@@ -32,7 +32,7 @@ Market-Sentiment-Analysis/
 │   ├── $ASTS_prices.csv
 │   ├── $GSAT_prices.csv
 │   ├── ...
-├── visualization results/         # Saved visualizations (e.g., PNG images)
+├── visualization_results/         # Saved visualizations (e.g., PNG images)
 │   ├── average_sentiment_over_time_I.png
 │   ├── bottom_posts_sentiment.png
 │   ├── bottom_tickers_sentiment.png
