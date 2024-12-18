@@ -5,6 +5,15 @@ Summary
 The Market-Sentiment-Analysis project leverages Natural Language Processing (NLP) and machine learning to analyze how sentiment influences stock price movements. Rather than pre-selecting stocks, this project uses real-time sentiment data from social media and financial news to dynamically identify trending stocks. By combining sentiment trends with historical stock prices, it builds predictive models to forecast price changes, providing actionable insights for traders and investors.
 This project highlights cutting-edge data science skills, including data scraping, NLP, time-series analysis, and predictive modeling, to showcase how public sentiment drives financial markets.
 
+Folder Structure:
+Market-Sentiment-Analysis/
+├── README.md            # Main project overview
+├── scripts/
+│   ├── README.md        # Detailed setup instructions for scripts
+│   ├── data_collection.py
+│   ├── sentiment_analysis.py
+
+
 Project Goals
 Dynamically identify trending stocks based on real-time sentiment analysis.
 Collect and analyze sentiment data from financial news and social media platforms.
