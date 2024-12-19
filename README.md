@@ -11,7 +11,7 @@ Correlation analysis between sentiment and stock prices.
 Workflow automation for dynamic stock analysis.
 
 
-#Folder Structure
+# Folder Structure
 
 Market-Sentiment-Analysis/
 ├── .gitignore                     # Ignore unnecessary files
@@ -58,7 +58,7 @@ Visualize actionable insights for financial decision-making.
 Provide a reproducible workflow for sentiment-based analysis.
 
 
-#Steps Taken
+# Steps Taken
 1. Reddit Data Collection
 Tool: Python praw (Reddit API wrapper).
 Collected posts from r/wallstreetbets, focusing on titles and text bodies.
